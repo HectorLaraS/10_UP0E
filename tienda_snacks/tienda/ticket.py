@@ -46,7 +46,7 @@ class Ticket:
         self._productos = value
 
     @productos_str.setter
-    def productos_str(self, value:[list]) -> None:
+    def productos_str(self, value:list[str]) -> None:
         self._productos_str = value
 
     def agregar_producto(self, new_product):
