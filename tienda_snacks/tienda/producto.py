@@ -34,6 +34,10 @@ class Producto:
     def precio(self, value: float) -> None:
         self._precio = value
 
+    @codigo_barra.setter
+    def codigo_barra(self, value: str) -> None: 
+        self._codigo_barra = value
+
     def producto_dict(self) -> dict[str, str | float | int]: 
         return {
             "id": self._id,
@@ -41,3 +45,6 @@ class Producto:
             "codigo_barra": self._codigo_barra,
             "precio": self._precio
         }
+    
+    def __str__(self):
+        return f"{str(self._id).ljust(5,".")}{str(self._nombre).ljust(40,".")}${self._precio}" 

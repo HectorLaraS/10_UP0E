@@ -1,0 +1,14 @@
+tu_proyecto/
+  src/                         # o el nombre de tu paquete
+    tienda/
+      __init__.py
+      producto.py
+      ticket.py
+      utils.py
+  tests/
+    conftest.py                # fixtures compartidas
+    test_producto.py           # 1 archivo por módulo o por feature
+    test_ticket.py
+    utils/
+      test_utils_fechas.py     # subcarpetas opcionales por área
+  pyproject.toml               # o pytest.ini para configuración
