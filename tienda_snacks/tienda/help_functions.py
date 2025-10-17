@@ -88,6 +88,8 @@ def main():
                 producto_comprado = validar_entrada()
                 if producto_comprado in lst_ids:
                     break
+                else:
+                    print("opcion no valida!!!")
             for producto_buscado in lst_producto:
                 if producto_comprado == producto_buscado.get("id"):
                     producto_to_add.id = producto_buscado.get("id")

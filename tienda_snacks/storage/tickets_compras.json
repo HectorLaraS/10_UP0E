@@ -54,5 +54,36 @@
                 "precio": 23.5
             }
         ]
+    },
+    {
+        "id": 3,
+        "fecha": "17/10/2025 14:10:26",
+        "total": 249.8,
+        "productos:": [
+            {
+                "id": 12,
+                "nombre": "Chocolate con leche",
+                "codigo_barra": "7501234567801",
+                "precio": 26.5
+            },
+            {
+                "id": 11,
+                "nombre": "Chocolate amargo 70%",
+                "codigo_barra": "7501234567800",
+                "precio": 28.0
+            },
+            {
+                "id": 2,
+                "nombre": "Papas sabor chile lim\u00f3n",
+                "codigo_barra": "7501234567891",
+                "precio": 19.9
+            },
+            {
+                "id": 4,
+                "nombre": "Cacahuates japoneses",
+                "codigo_barra": "7501234567893",
+                "precio": 20.0
+            }
+        ]
     }
 ]
